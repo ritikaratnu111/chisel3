@@ -1,0 +1,12 @@
+As all theses files are present in the main directory, run these from there
+
+Commands:
+
+cd verilator
+cd chisel-tutorial
+sbt
+test:runMain problems.Launcher (NAME) --is-verbose
+to generate verilog file : test:runMain problems.Launcher (NAME) --backend-name verilator
+
+
+Make sure the name of the class and that in launcher has to be the same irrespective of the file name. 
